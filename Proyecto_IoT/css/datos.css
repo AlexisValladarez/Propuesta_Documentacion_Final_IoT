@@ -1,0 +1,232 @@
+﻿*{
+	border: 0;
+	margin: 0;
+	padding: 0; 
+}
+body{
+	margin: 2px;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+#contenedor{
+	box-shadow: 2px 10px #3498DB;
+	border: solid #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	height:  1127px;                                      
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#cabecera{
+	background-color: #ccc;
+	color: white;
+	padding: 10px;
+	height: 120px;
+}
+#UTPL{
+	height: 120px;
+	width: 300px;
+	border-radius: 5px;
+	color: #3498DB;
+	-webkit-box-shadow: 2px 2px 4px;
+}
+header div a img{ 
+	width: 130px; /*ancho del logo REVISARRRR*/ 
+	float: left;
+}
+#redes img{
+	margin: 10px;
+	width: 30px;
+	margin-left: auto;
+	vertical-align: middle; /*Alineación vertical para que se coloquen en el centro*/
+	border-radius: 5px;
+}
+ul{
+	list-style: none;
+}
+.nav{
+	margin-left: 418px;
+}
+.nav > li{
+	float: left;
+}
+.nav li a{
+	text-decoration: none;
+	display: block;
+	color: #3498DB;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0 7px; 
+	padding-top: 60px;
+}
+.nav li a:hover{
+	/*background: #3498DB;*/
+	color: white;
+}
+
+#barner{
+	margin: auto;
+	border: 4px solid #ccc;
+	margin-top: 3px;
+	height: 212px;
+}
+section img{
+	width: 890px; /*ancho del barner*/
+	border-radius: 5px;
+}
+section #barner img{
+	width: 890px; /*ancho del barner*/
+	border-radius: 5px;
+	height: 212px;
+}
+#contenido{
+	float: left;
+	width: 640px; /*ancho*/
+	background: #ccc;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px; /*margen superior*/
+	margin-bottom: 5px;                                 
+	margin-right: 10px;
+	height: 700px;                                          
+}
+.articulos h2{
+	font-size: 25px;
+	line-height: 25px;
+	padding: 10px;
+	padding-top: 25px;                                    
+	color: #3498DB;
+	border-bottom:  5px solid #3498DB;
+}
+.articulos img{
+	float: left; /*la imagen flota a lado izquierdo*/
+	margin: 10px; /*la imagen tiene un margen en ambos extremos de 10px*/
+}
+.articulos{
+	height: 70px;
+}
+.articulos p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 17px; /*interlineado*/
+}
+
+section article img{
+	width: 210px; /*ancho de la imgen 1 y 2*/
+	border-radius: 5px;
+	color: #3498DB;
+	-webkit-box-shadow: 2px 2px 4px;
+}
+
+aside{
+	float: right;
+	width: 250px;
+	background: white;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+aside h3{
+	font-size: 22px;
+	background: #D90000;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	font-size: 1.1em; 
+}
+aside p{
+	padding: 10px;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 15px;
+	font-size: 1.1em; 
+}
+aside img{
+	width: 160px; /*ancho de la imagen del aside*/
+	-webkit-box-shadow: 2px 2px 4px;
+	color: #3498DB;
+}
+
+footer{ 
+	height: 50px;
+	background: #3498DB;
+	clear: both; /*rompemos la propiedad float: left con clear:both para que no interfiera con otros elementos*/
+	border-radius: 5px;
+	width: 902px;
+}
+footer p{
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-style: italic;
+}
+p{
+	font-size: 1em;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+aside p{
+	font-size: 1.1em;
+	line-height: 17px;
+}
+#table{  
+	margin-top: 10px;
+	margin-bottom: 8px;
+	font-size: 0.8em;
+	margin-left: 28px;
+	margin-right: 5px;
+	padding: 0px 17px;
+}
+
+#img1{
+	width: 130px;
+	height: 100px;
+	border-radius: 5px;
+	color: #3498DB;
+	-webkit-box-shadow: 2px 2px 4px; /*sombra de caja para la imagen */
+} 
+#Enlaces #img1{
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#Enlaces{
+	background: white;
+	text-align: center;
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+}
+#enlace{
+	color: white;
+	background: #3498DB;
+	font-size: 1.1em;
+}
+#Enlaces1{
+	background: white;
+	margin-top: 10px;
+}
+#enlace1{
+	color: white;
+	background: #3498DB;
+	font-size: 1.1em;
+}
+#redes{
+	position: absolute;
+	display: inline-block;
+	line-height: 20px;
+	padding-left: 425px;
+	padding-top: 0px;
+}
+
+.estadistica1{
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	display: inline-block;
+	margin-left: 150px;
+}
